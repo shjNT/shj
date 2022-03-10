@@ -1,0 +1,5 @@
+1.INT_MAX ->2*31-1    32位最大整数
+2.isdigit()函数：判断字符是否为阿拉伯数字
+3.atoi()函数: 字符串转整形，string类型需加转成c的char -->> .c_str()
+4.to_string(): 数字转字符串
+5.字符串的遍历：for(const char letter: letters)

@@ -1,0 +1,5 @@
+1. c++动态检测内存错误利器(ASan 即Address Sanitizer)命令: 加参数-fsanitize=address
+      g++ -fsanitize=address -fno-omit-frame-pointer -o leetcode/006_.out leetcode/006_Z字形变换.cpp
+
+2. Overflow Containers: (索引越界)
+
