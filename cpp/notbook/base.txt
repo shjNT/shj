@@ -3,3 +3,16 @@
 3.atoi()函数: 字符串转整形，string类型需加转成c的char -->> .c_str()
 4.to_string(): 数字转字符串
 5.字符串的遍历：for(const char letter: letters)
+6.c++中的空指针：nullptr， 而null只代表0
+7.指针不仅会要用(*p). 还要会用->
+8.要创建某种类型(包含自定义类型)的指针，一般用new
+9.string查找子串：a.find(b), 返回子串b在a中的位置int
+10.map:不允许两个元素拥有相同的键值; multimap:允许键值重复; unordered_map:不会根据key的大小进行排序
+11.for item in items ==>> for(auto &item : items)
+12.swap(元素1，元素2，.); sort(it1, it2, .)
+13.memset(结构体/数组名, '用于替换的字符', 要填充的前多少个字符): 在一段内存块中填充某一个给定的值，
+                                                          常用于较大的对结构体和数组的清零操作
+14.emplace_back和push_back作用相同，不过emplace_back时不需要再声明一个实例而传入容器了
+15.值传递、引用传递、地址传递
+16.accumulate(combine.begin(), combine.end(), 0) 
+17.c++的位运算符：&  |  ^  ~  <<  >>
